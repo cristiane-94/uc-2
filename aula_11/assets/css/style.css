@@ -1,0 +1,53 @@
+body{
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    background color: #f3f4f6;
+
+}
+h3{
+    color: black;   
+}
+main{
+    justify-content: center;
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 10px;
+}
+.form-cadastro{
+    max-width: 60%;
+    background-color: white;
+    padding: 20px;
+
+
+}
+header img{
+    max-width: 100%;
+}
+input{
+    width: 100%;
+    border-radius: 5px;
+    margin: 5;
+}
+.form-cadastro{
+    padding: 20px;
+    margin-bottom: 5px;
+}
+.uma-coluna{
+    margin: 10px;
+    flex-direction: column;
+}
+.duas-colunas{
+    display: flex;
+    margin: 10px;
+}
+.tres-colunas{
+    display: flex;
+    margin: 10px;
+}
+.tres-colunas-select
+    width: 100%;
+    padding: 18px;
+   

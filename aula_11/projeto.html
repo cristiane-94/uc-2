@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulário de cadastro</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <!-- Fonte google rubik -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Booststrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-B/GM4XqrwHnWXNOWMbloTmrYXZg10cakYGmpfsR/bbzQ6JAJI4ihuyADKLnBgrCe"
+      crossorigin="anonymous"
+    />
+    <!-- Bootstrap Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.2/font/bootstrap-icons.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <img src="./assets/img/image.png" alt="" />
+    </header>
+
+    <main>
+      <div class="form-cadastro">
+        <h3>Formulário Senac</h3>
+        <form action="" method="get"></form>
+        <div class="uma-coluna">
+          <label for="Nome"
+            >Nome completo (sem abreviações, conforme documento de
+            identificação)</label
+          >
+          <input type="text" name="nome-completo" />
+        </div>
+        <div class="duas-colunas">
+          <label for="CPF">CPF</label>
+          <input type="number" name="CPF" id="CPF" />
+          <label for="data-de-nascimento">Data de nascimento</label>
+          <input type="date" name="data-de-nascimento" id="" />
+        </div>
+
+        <div class="duas-colunas">
+          <label for="Contato telefônico">Telefone</label>
+          <input type="contato-telefonico" />
+          <label for="email">Email</label>
+          <input type="email" name="Email" id="" />
+        </div>
+
+        <div class="duas-colunas">
+          <label for="CEP">CEP</label>
+          <input type="number" name="CEP" id="" />
+          <label for="rua">Rua</label>
+          <input type="rua" />
+        </div>
+
+        <div class="tres-colunas">
+          <label for="numero">Número</label>
+          <input type="number" name="numero" id="" />
+          <label for="complemento">Complemento</label>
+          <input type="text" name="complemento" id="" />
+          <label for="bairro">Bairro</label>
+          <input type="text" name="bairro" id="" />
+        </div>
+
+        <div class="duas-colunas">
+          <label for="Cidade">Cidade</label>
+          <input type="text" name="cidade" id="" />
+          <label for="Estado">Estado</label>
+          <input type="text" name="Estado" id="" />
+        </div>
+
+        <div class="tres-colunas">
+          <label for="Escolaridade">Escolaridade</label>
+          <select name="escolaridade" id="escoladirade">
+            <option value="">Selecione uma opção</option>
+            <option value="Fundamental">Ensino fundamental</option>
+            <option value="Ensino-médio">Ensino médio</option>
+            <option value="Ensino-superior">Ensino superior</option>
+          </select>
+
+          <label for="sexo">Sexo</label>
+          <select name="sexo" id="sexo">
+            <option value="">Selecione uma opção</option>
+            <option value="feminino">Feminino</option>
+            <option value="masculino">Masculino</option>
+          </select>
+
+          <label for="raça-cor">Raça/cor</label>
+          <select name="raça-cor" id="raça-cor">
+            <option value="">Selecione uma opção</option>
+            <option value="pardo">Pardo</option>
+            <option value="amarela">Amarela</option>
+            <option value="indígena">Indígena</option>
+            <option value="preto">Preto</option>
+            <option value="branco">Branco</option>
+          </select>
+          <button type="submit">Enviar</button>
+        </div>
+      </div>
+    </main>
+    <script
+      type="module"
+      src="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-1a/pXj49ZQ1aHEmrJ+gMw1otqoVsYwlEnlD8mIfY2TV03r20Y0CN7uqx1tQogjPL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
