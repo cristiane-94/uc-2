@@ -20,8 +20,6 @@ main{
     max-width: 60%;
     background-color: white;
     padding: 20px;
-
-
 }
 header img{
     max-width: 100%;
@@ -50,4 +48,4 @@ input{
 .tres-colunas-select
     width: 100%;
     padding: 18px;
-   
+}
